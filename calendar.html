@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        
+        <title>Calendar</title>
+        
+        <!--Авторы - Коваленко Дарья и Пашинская Пелагея-->
+        <!--Группа 15.11Д-ПИИП05/21б-->
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="calendar_styles.css">
+        
+    </head>
+    <body>
+        <div id = 'whole' class="container">
+            
+            <div class="el el-1"></div>
+            
+            <!--Поле для поиска даты-->
+            <div class="el el-2 container_el2"><input class="block find_pole" id='SetDate' onkeydown="EnterDate(this)" placeholder="Поиск"></div>
+            <div class="el el-3"></div>
+            
+            <!--Кнопки с перелистыванием-->
+            <div class="el el-4"><button class="next_last_but prev_month_but" onclick="previous_month()"></button></div>
+            
+            <!--Div, в который вставляется календарь, карточка ввода и окно для ввода ссылки на изображение-->
+            <div class="el el-5 container_el5">
+                <div id='divCal' ></div>
+                <div id='card_id' class='card'></div>
+                <div id='image_window'></div>
+            </div>
+
+            <script src="calendar_js.js"></script>
+            
+            <div class="el el-6"><button class="next_last_but but_right" onclick="next_month()"></button></div>
+
+            <!--Низ страницы-->
+            <div class="el el-7"></div>
+            <div class="el el-8"><footer class="container_el8">26/10/2022 Коваленко Дарья и Пашинская Пелагея</footer></div>
+
+            <!--Смена стилей-->
+            <div class="el el-9 container_el9" >
+                <div class="rowFlex">
+                    <input type="button" onclick="pink_style()" class="style_but pink">
+                    <input type="button" onclick="blue_style()" class="style_but blue">
+                    <input type="button" onclick="base_style()" class="style_but base">
+                    <input type="button" onclick="getting_url()" class="style_but cast">
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

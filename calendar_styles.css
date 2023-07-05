@@ -1,0 +1,274 @@
+*{
+    font-family: "Montserrat";
+}
+
+
+td, th {
+    width: 200px;
+    height: 57px;
+    border: 1px solid;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container_el2{
+    padding-right: 2%; 
+    text-align: right;
+} 
+.find_pole{
+    width:170px; 
+    height: 20px; 
+    margin-bottom:5px; 
+    margin-left: 20px;  
+    text-align: center; 
+    background-image: url("https://bumper-stickers.ru/30513-thickbox_default/lupa.jpg"); 
+    background-position: right center;  
+    border-radius: 5%;
+} 
+.prev_month_but{
+    transform: rotate(180deg);
+} 
+.container_el5{
+    text-align: left; 
+    padding-left: 0; 
+    padding-right: 0;
+}
+.card {
+    width: 50%;
+    height: 70%;
+    border: 0;
+    border-radius: 2%;
+    border: 1px solid;
+    position: absolute;
+    background-color: RGB(252, 252, 252);
+    top: 10%;
+    left: auto;
+    overflow-y: auto;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding: 30px;
+    visibility: hidden;
+    z-index: 2;
+}
+.theme {
+    font-weight: bold;
+    font-size: 14pt;
+    margin: 5px;
+    background-color: RGB(240, 240, 240);
+    border-radius: 2%;
+    border: 0;
+    width: 65%;
+}
+.text {
+    height: 100px;
+    resize: none;
+    margin: 10px;
+    background-color: RGB(240, 240, 240);
+    border: 0;
+    padding-left: 5px;
+    width: 95%;
+}
+.save_delete_but {
+    width: 150px; 
+    height:23px; 
+    margin:4px; 
+    background-color: RGB(240, 240, 240);
+    border: 0.5px solid RGB(100, 100, 100); 
+    color: RGB(130, 130, 130); 
+    font-weight: 500;
+    margin-left: 4px; 
+    margin-right: 4px;
+}
+
+.close {
+    font-size: 16pt;
+    position: sticky;
+    top: 0;
+    left: 100%;
+    border:0;
+    background-color:transparent;
+    font-weight: bold;
+}
+.close:hover {
+    color: red;
+}
+
+
+.el{ 
+   padding: 0 10%;
+   font-size: 21px;
+   font-size: 30;
+   border: 0;
+}
+.container {
+   display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+    grid-template-rows: 0.1fr 89% 0.2fr;
+    //color: pink;
+} 
+
+
+.next_last_but {
+    position: relative;
+    top: 220px;
+    width: 60px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid grey;
+    background-size: 60px 100px; 
+    background-repeat: no-repeat; 
+    background-image: url('https://aiconica.net/previews/arrow-right-icon-435.png');
+    border: 0;
+} 
+.container_el8{
+    color: RGB(140, 140, 140); 
+    text-align: center; 
+    font-size: 18px;
+} 
+.container_el9{
+    text-align: center;
+}
+.but_right{
+    right: -22px;
+}
+.block {
+    opacity: 0.7;
+    border:2px solid RGB(80, 80, 80);
+    background-color: transparent; 
+    background-size: 20px 20px; 
+    background-repeat: no-repeat;
+}
+.block:hover{
+    background-color: RGB(240, 240, 240);
+}            
+
+.empty{
+    border: 0;
+}
+.pic_win {
+    background: RGB(240, 140, 240); 
+    border: 1px solid black; 
+    position: absolute; 
+    bottom: 10%; 
+    right: 3%; 
+    background-color: white; 
+    width: 30%; 
+    padding: 7px; 
+    border-radius: 3%; 
+    box-shadow: 10px 10px 90px rgba(0, 0, 0, 0.6); 
+    z-index: 10;
+}
+.closee {
+    position: absolute; 
+    left: 85%; 
+    top: 10%;
+}
+.label {
+    font-size: 10px;
+    padding-right: 10%;
+}
+.url_pole{
+    left:0;
+    font-size: 12px; 
+    width: 45%; 
+    height: 20px; 
+    border: 1px solid black; 
+    border-radius: 3%;
+}
+.dl{
+    width: 45%; 
+    padding: 3px; 
+    border: 1px solid black; 
+    font-size: 10px;
+}
+.calendar_box {
+    background: RGB(247, 247, 247);
+}
+.today_box{
+    border: 3px solid RGB(100, 100, 100);
+}
+.ordinary_box{
+    border: 1px solid RGB(150, 150, 150);
+}
+.main_month {
+    font-weight: bold; 
+    font-size: 40pt;
+}
+.cal_boxes_style {
+    font-weight: 600; 
+    border:0; 
+    cursor:auto
+}
+.month_odd {
+    font-size: 13px; 
+    text-align: left; 
+    padding: 6px;
+}
+.date_odd {
+    margin:0; 
+    margin-left:10px; 
+    font-weight: 350; 
+    font-size: 10pt; 
+    text-align: left;
+} 
+.head_note {
+    margin: 0; 
+    margin-left:10px; 
+    font-weight: bold; 
+    font-size: 16pt;
+} 
+.text_note {
+    margin:0; 
+    margin-left:10px; 
+    white-space: pre;
+} 
+.odd_text_note {
+    margin-left: 5px; 
+    white-space: pre;
+} 
+.body_text {
+    margin-left: 5px; 
+    white-space: pre;
+} 
+.pink {
+    opacity: 0.3; 
+    background-image: url(https://uprostim.com/wp-content/uploads/2021/04/57_krug-png_-2-tys-izobrazhenij-najdeno-v-YAndeks.Kartinkah.png);
+}
+.blue {
+    opacity: 0.95; 
+    background-image: url(https://pngimg.com/uploads/circle/circle_PNG10.png);
+}
+.base {
+    background-image: url(http://cdn.onlinewebfonts.com/svg/img_222556.png); 
+}
+.cast {
+    opacity: 0.6; 
+    background-image: url(http://cdn.onlinewebfonts.com/svg/img_519980.png);
+}
+
+.rowFlex {
+    display: flex;
+    flex-direction: row;
+}
+.colFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.style_but{
+    opacity: 0.7;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 0;
+    border-radius: 0%;
+    background-color: transparent;
+    margin: 2px;
+    z-index: 0;
+}
+
+.spec {
+
+}
